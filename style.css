@@ -9,6 +9,16 @@ body {
 
 /*Stuff below governs the start screen*/
 
+#barneyphoto {
+    position: absolute;
+    width: 718px;
+    height: 586px;
+}
+
+#ctphoto {
+    position: absolute;
+}
+
 .titleContent {
 	margin: 10% auto;
     text-align: center;
