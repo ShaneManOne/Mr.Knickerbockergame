@@ -17,6 +17,7 @@ body {
 
 #ctphoto {
     position: absolute;
+    margin-left: 50%;
 }
 
 .titleContent {
