@@ -15,13 +15,19 @@ body {
     height: 500px;
 }
 
+#hello {
+    width: 1200px;
+    height: 700px;
+}
+
+
 #ctphoto {
     position: absolute;
     margin-left: 50%;
 }
 
 #woo {
-    color: black;
+    color: blue;
 }
 
 .titleContent {
@@ -51,17 +57,17 @@ body {
 }
 
 .button {
-	border: 5px solid #383838;
-    color: #383838;
+	border: 5px solid #00f9ff;
+    color: #9F29D9;
     padding: 20px 50px;
     font-size: 5em;
     text-decoration: none;
-    background-color: #abc;
+    background-color: #ff0074;
     box-shadow: 15px 15px 80px #555;
 }
 
 .button2 {
-    border: 5px solid #383838;
+    border: 5px solid #157a05;
     color: #383838;
     padding: 20px 50px;
     font-size: 5em;
@@ -71,25 +77,45 @@ body {
 }
 
 .button3 {
-    border: 5px solid #383838;
-    color: #383838;
+    border: 5px solid #e3ff00;
+    color: #9600FF;
     padding: 20px 50px;
     font-size: 5em;
     text-decoration: none;
-    background-color: #abc;
+    background-color: #15ff00;
     box-shadow: 15px 15px 80px #555;
+    z-index:1;
 }
 
 .button4 {
-    border: 5px solid #383838;
-    color: #383838;
+    border: 5px solid #157a05;
+    color: #4b1515;
     padding: 20px 50px;
     font-size: 5em;
     text-decoration: none;
-    background-color: #abc;
+    background-color: #76a747;
     box-shadow: 15px 15px 80px #555;
     position: absolute;
     margin-left: 500px;
+}
+
+.button5 {
+    border: 5px solid #FFA500 ;
+    color: #FF1B6B;
+    padding: 20px 50px;
+    font-size: 5em;
+    text-decoration: none;
+    background-color: #52EFD2;
+    box-shadow: 15px 15px 80px #555;
+    z-index:1;
+    margin-left: 250px;
+    position:absolute;
+     top:0;
+     right:0;
+      margin-top: 100px;
+    margin-right: 450px;
+    font-family: "Times New Roman", Times, serif;
+ 
 }
   a.button:hover {
     background-color: #383838;
